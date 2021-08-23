@@ -475,6 +475,137 @@ footer .flex a {
     color: white;
     text-align: right;
 }
+.section_2.active .word_1{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_1{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_2.active .word_2{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 3.5s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_2{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_2.active .word_3{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 4s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_3{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_2.active .word_4{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_4{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_2.active .word_5{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_5{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_2.active .word_6{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_6{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_2.active .word_7{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_7{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_2.active .word_8{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_8{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_2.active .word_9{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 4s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_9{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_2.active .word_10{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 3.5s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_10{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_2.active .word_11{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_11{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_2.active .word_1{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_2 .word_1{
+    transform: translate3d(100px, 0px,0) !important;
+}
+.section_3.active .btns{
+    opacity: 1;
+    transform: translate3d(0,0px,0) !important;
+    transition-duration: 5s;
+    transition-timing-function: ease;
+    transition-property: opacity,transform;
+}
+.section_3 .btns{
+    transform: translate3d(0, 100px,0) !important;
+}
+    
 @font-face {
     font-family: "Payday";
     font-style: normal;
@@ -814,12 +945,20 @@ footer .flex a {
         max-height: 673px;
     }
     footer {
-        padding: 30px;
+        padding: 0px;
+        padding-right: 20px;
         right: 0px;
+    }
+    .section_3 a{
+        height: 45px;
     }
     .section_3 .btns {
         max-width: 90%;
-        font-size: 40px;
+        font-size: 18px;
+        line-height: 42px;
+        height: 58px;
+        max-width: 244px;
+        margin-top: 70%;
     }
     .section_1 .absol {
         max-height: 813px;
@@ -889,10 +1028,10 @@ footer .flex a {
         font-size: 35px;
     }
     .word_3 {
-        right: 75px;
+        right: 50px;
     }
     .word_7 {
-        right: 77px;
+        right: 12px;
     }
     .word_8 {
         width: 100%;
@@ -906,28 +1045,29 @@ footer .flex a {
         right: 14px;
     }
     .word_3 {
-        bottom: 29%;
+        bottom: 15%;
     }
     .word_5 {
         bottom: 29%;
     }
     .word_7 {
-        bottom: 19.5%;
+        bottom: 7%;
     }
     .word_9 {
-        bottom: 17%;
+        bottom: 12%;
     }
     .word_10 {
-        bottom: 11%;
+        bottom: 19%;
     }
     .section_3 {
         margin-top: -15%;
     }
     .word_2 {
         bottom: 7%;
+        left: 13px;
     }
     .section_3 img {
-        height: 76vh;
+        height: 85vh;
     }
     .video {
         min-width: 414px;
@@ -949,6 +1089,20 @@ footer .flex a {
     }
     .video {
         min-width: 375px;
+    }
+}
+@media (max-width: 360px) {
+    .word_10 {
+        bottom: 18%;
+    }
+    .word_11{
+        font-size: 26px;
+    }
+    .word_5 {
+        bottom: 26%;
+    }
+    .word_3 {
+        bottom: 15%;
     }
 }
 @media (max-width: 320px) {

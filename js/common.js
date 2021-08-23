@@ -28,8 +28,7 @@
 			afterRender: function(){},
 		});
 		
-
-
+		AOS.init();
 
 		const btnOk = document.querySelector('.btn__play');
 		const wrapperVideo = document.getElementById('fon');
